@@ -1,0 +1,163 @@
+[
+    {
+        "question": "Are you self-employed?",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you have a family history of mental illness?",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "If you have a mental health condition, do you feel that it interferes with your work?",
+        "options": [
+            "Often",
+            "Rarely", 
+            "Never", 
+            "Sometimes", 
+            "Don't know"] 
+    },
+    {
+        "question": "How many employees does your company or organization have?",
+        "options": [
+            "1-5",
+            "6-25",
+            "26-100",
+            "100-500",
+            "500-1000",
+            "More than 1000"
+        ]
+    },
+    {
+        "question": "Do you work remotely (outside of an office) at least 50% of the time?",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Is your employer primarily a tech company/organization?",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Does your employer provide mental health benefits?",
+        "options": [
+            "Yes", 
+            "Don't know",
+            "No"
+        ] 
+    },
+    {
+        "question": "Do you know the options for mental health care your employer provides?",
+        "options": [
+            "Yes", 
+            "No",
+            "Not Sure"
+        ] 
+    },
+    {
+        "question": "Has your employer ever discussed mental health as part of an employee wellness program?",
+        "options": [
+            "No", 
+            "Don't know",
+            "Yes"
+        ] 
+    },
+    {
+        "question": "Does your employer provide resources to learn more about mental health issues and how to seek help?",
+        "options": [
+            "Not Sure", 
+            "No",
+            "Yes"
+        ] 
+    },
+    {
+        "question": "Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources?",
+        "options": [
+            "Yes", 
+            "Don't know",
+            "No"
+        ]
+    },
+    {
+        "question": "How easy is it for you to take medical leave for a mental health condition?",
+        "options": [
+            "Somewhat easy",
+            "Don't know",
+            "Somewhat difficult",
+            "Very difficult",
+            "Very easy"
+        ]
+    },
+    {
+        "question": "Do you think that discussing a mental health issue with your employer would have negative consequences?",
+        "options": [
+            "No",
+            "Maybe",
+            "Yes"
+        ]
+    },
+    {
+        "question": "Do you think that discussing a physical health issue with your employer would have negative consequences?",
+        "options": [
+            "No",
+            "Maybe",
+            "Yes"
+        ]
+    },
+    {
+        "question": "Would you be willing to discuss a mental health issue with your co-workers?",
+        "options": [
+            "Yes",
+            "Some of them",
+            "No"
+        ]
+    },
+    {
+        "question": "Would you be willing to discuss a mental health issue with your direct supervisor(s)?",
+        "options": [
+            "Yes",
+            "No",
+            "Some of them"
+        ]
+    },
+    {
+        "question": "Would you bring up a mental health issue with a potential employer in an interview?",
+        "options": [
+            "No",
+            "Yes",
+            "Maybe"
+        ]
+    },
+    {
+        "question": "Would you bring up a physical health issue with a potential employer in an interview?",
+        "options": [
+            "Maybe",
+            "No",
+            "Yes"
+        ]
+    },
+    {
+        "question": "Do you feel that your employer takes Mental Health as seriously as Physical Health?",
+        "options": [
+            "Yes", 
+            "Don't know",
+            "No"
+        ]
+    },
+    {
+        "question": "Have you heard of or observed negative consequences for coworkers with mental health conditions in your workplace?",
+        "options": [
+            "No",
+            "Yes"
+        ]
+    }
+]

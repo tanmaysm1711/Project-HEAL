@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=PT+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+    
+}
+
+.head_logo{
+    margin: 3.7rem 0rem 0rem 6.4rem;
+}
+
+.main_container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 9.5rem;
+}
+
+.result{
+    width: 97.4rem;
+    display: flex;
+    justify-content: space-between;
+    background: #F5FFF8;
+    /* border: 0.2rem solid #D2E8D8; */
+    box-shadow: 0rem 10.9rem 9.2rem rgba(7, 46, 0, 0.08), 0px 54.5532px 46.0449px rgba(7, 46, 0, 0.0608266), 0px 32.8603px 27.7353px rgba(7, 46, 0, 0.0521271), 0px 21.0586px 17.7742px rgba(7, 46, 0, 0.0456716), 0px 13.6485px 11.5198px rgba(7, 46, 0, 0.04), 0px 8.59157px 7.2516px rgba(7, 46, 0, 0.0343284), 0px 4.93639px 4.1665px rgba(7, 46, 0, 0.0278729), 0px 2.17263px 1.83378px rgba(7, 46, 0, 0.0191734);
+    border-radius: 2.6rem;
+}
+
+.box1{
+    margin: 5.3rem 0rem 5.3rem 7.1rem;
+}
+
+.box1 h1{
+    padding-bottom: 2.3rem;
+}
+
+.det{
+    margin-top: 2.2rem;
+}
+
+.attribute{
+    width: 6.8rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #5D7062;
+}
+
+/* .value{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #5D7062;
+    
+} */
+
+.name_on_result_card {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #5D7062;    
+    margin-left: 9.3rem;
+}
+.age_on_result_card {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #5D7062;  
+    margin-left: 10.9rem;
+}
+.email_on_result_card {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #5D7062;  
+    margin-left: 7.5rem;
+}
+
+.box2{
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 2.6rem;
+    height: 200px;
+    margin-top: auto;
+}
+
+.bottom_box{
+    display: flex;
+    justify-content: center;
+}
+
+.output_text{
+    font-family: 'Redaction';
+    margin-top: 6.4rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3.6rem;
+    color: #396646;
+    width: 69.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 998px) {
+    html{
+        font-size: 55%;
+    }
+
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 45%;
+    }
+
+}

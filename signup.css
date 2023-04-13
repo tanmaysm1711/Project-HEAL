@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=PT+Serif&display=swap');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100vh;
+}
+
+.left_cont{
+    
+    width: 50vw;
+    /* margin-top: 22rem; */
+}
+
+.sign_sec{
+    /* align-self: center; */
+    margin: 10.5rem 18rem 0rem 18rem;
+    width: 36rem;
+}
+
+.sign_sec h1{
+    margin-top: 4rem;
+    font-weight: 600;
+    font-size: 3.6rem;
+}
+
+.sign_sec p{
+    color: #667085;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+}
+
+.form_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.2rem;
+}
+
+.input_box, .form_email{
+    padding: 1rem 1.4rem;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    margin-top: 0.6rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    
+}
+
+.input_box{
+    width: 17rem;
+}
+
+.form_email{
+    width: 36rem;
+}
+
+.form_child{
+    margin-right: 2rem;
+}
+
+.form_child, .sign_sec label{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.email_sec{
+    margin-top: 2rem;
+}
+
+.signup_button {
+    padding: 1rem 1.8rem;
+    background: #1570EF;
+    box-shadow: 0rem 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+    border-radius: 0.8rem;
+    border: 1px solid #1570efe4;
+    width: 36rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    margin-top: 2.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.signup_button:hover {
+    background: #1570efdd;
+}
+
+.right_cont{
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(26.57deg, #0D3D80 8.33%, #3181F0 91.67%);
+}
+
+
+.cont_cen{
+    margin: 10.5rem 14.4rem 0rem 14.4rem;
+    text-align: center;
+}
+
+.cont_cen h1{
+    font-weight: 400;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-top: 4.8rem;
+}
+
+.cont_cen p{
+    margin-top: 0.8rem;
+    color: #D1E9FF;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 4.8rem;
+}
+
+.cont_surf{
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    margin: auto;
+}
+
+.dot_box div{
+    display: inline-block;
+    margin: 0.8rem;
+}
+
+.cont_surf img{
+    cursor: pointer;
+}
+
+.dot{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.6rem;
+    background-color: #1570EF;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.dot:hover{
+    background-color: #FFFFFF;
+}
+
+.foot p{
+    font-size: 1.4rem;
+    color: #667085;
+    cursor: pointer;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 18.5rem 3.2rem 0rem 3.2rem;
+    
+}
+
+span{
+    vertical-align: top;
+    color: red;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.foot p img{
+    margin-right: 0.8rem;
+}
+
+#snack_bar {
+    visibility: hidden;
+    min-width: 15.625rem;
+    background: #FFFFFF;
+    border: 1px solid #CFDAE9;
+    box-shadow: 0px 1.25rem 1.5rem -0.25px rgba(16, 24, 40, 0.1), 0px 0.5rem 0.5rem -0.25rem rgba(16, 24, 40, 0.04);
+    color: #475467;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    position: fixed;
+    bottom: 5rem;
+    font-size: 16px;
+}
+
+#snack_bar.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+  
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 5rem; opacity: 1;}
+}
+ 
+@keyframes fadeout {
+    from {bottom: 5rem; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@media (max-width: 998px) {
+    html{
+        font-size: 55%;
+    }
+
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 45%;
+    }
+}
